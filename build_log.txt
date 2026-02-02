@@ -1,0 +1,25 @@
+
+> pokedash@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 5.9s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/4) ...
+⨯ useSearchParams() should be wrapped in a suspense boundary at page "/". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at Q (D:\AiWebsite\PokéDash\pokedash\.next\server\chunks\ssr\_22d7c14e._.js:2:2111)
+    at o (D:\AiWebsite\PokéDash\pokedash\.next\server\chunks\ssr\_22d7c14e._.js:4:5284)
+    at GZ (D:\AiWebsite\PokéDash\pokedash\.next\server\chunks\ssr\_22d7c14e._.js:8:306818)
+    at an (D:\AiWebsite\PokéDash\pokedash\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:84360)
+    at ai (D:\AiWebsite\PokéDash\pokedash\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:86179)
+    at al (D:\AiWebsite\PokéDash\pokedash\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:107953)
+    at as (D:\AiWebsite\PokéDash\pokedash\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:105368)
+    at am (D:\AiWebsite\PokéDash\pokedash\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:112882)
+    at au (D:\AiWebsite\PokéDash\pokedash\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:109985)
+    at al (D:\AiWebsite\PokéDash\pokedash\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:108231)
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+Export encountered an error on /page: /, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null

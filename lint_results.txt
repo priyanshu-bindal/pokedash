@@ -1,0 +1,53 @@
+
+> pokedash@0.1.0 lint
+> eslint
+
+
+D:\AiWebsite\PokéDash\pokedash\src\app\page.tsx
+  12:10  warning  'useDebounce' is defined but never used   @typescript-eslint/no-unused-vars
+  47:56  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\AiWebsite\PokéDash\pokedash\src\components\evolution-chain.tsx
+   4:48  warning  'getPokemonDetails' is defined but never used                                                 @typescript-eslint/no-unused-vars
+   7:1   warning  Unused eslint-disable directive (no problems were reported from '@next/next/no-img-element')
+   8:8   warning  'Image' is defined but never used                                                             @typescript-eslint/no-unused-vars
+  12:16  error    Unexpected any. Specify a different type                                                      @typescript-eslint/no-explicit-any
+  38:59  error    Unexpected any. Specify a different type                                                      @typescript-eslint/no-explicit-any
+
+D:\AiWebsite\PokéDash\pokedash\src\components\pokemon-detail-dialog.tsx
+   3:20  warning  'useEffect' is defined but never used          @typescript-eslint/no-unused-vars
+   7:55  warning  'DialogDescription' is defined but never used  @typescript-eslint/no-unused-vars
+  74:49  error    Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+
+D:\AiWebsite\PokéDash\pokedash\src\components\pokemon-grid-card.tsx
+  67:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\AiWebsite\PokéDash\pokedash\src\components\pokemon-grid.tsx
+  69:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\AiWebsite\PokéDash\pokedash\src\components\type-coverage.tsx
+    3:31  warning  'useMemo' is defined but never used            @typescript-eslint/no-unused-vars
+    5:10  warning  'Shield' is defined but never used             @typescript-eslint/no-unused-vars
+    8:10  warning  'Card' is defined but never used               @typescript-eslint/no-unused-vars
+    8:16  warning  'CardHeader' is defined but never used         @typescript-eslint/no-unused-vars
+    8:39  warning  'CardContent' is defined but never used        @typescript-eslint/no-unused-vars
+   19:55  error    Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+   43:54  error    Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  108:39  warning  'isThreat' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\AiWebsite\PokéDash\pokedash\src\components\type-filter.tsx
+  34:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\AiWebsite\PokéDash\pokedash\src\lib\api.ts
+  27:77  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  35:77  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  43:63  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  51:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  65:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\AiWebsite\PokéDash\pokedash\src\lib\pokemon.ts
+  1:10  warning  'PokemonLite' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 27 problems (14 errors, 13 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

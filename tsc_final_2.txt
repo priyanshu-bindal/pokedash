@@ -1,0 +1,2 @@
+src/components/team-dock.tsx(44,27): error TS2322: Type '{ team: Pokemon[]; isOpen: boolean; onClose: () => void; }' is not assignable to type 'IntrinsicAttributes'.
+  Property 'team' does not exist on type 'IntrinsicAttributes'.
