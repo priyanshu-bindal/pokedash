@@ -23,6 +23,7 @@ import {
   DragStartEvent,
   DragEndEvent
 } from '@dnd-kit/core'
+import { Suspense } from 'react'
 
 // Simple debounce hook implementation inline for now or I'll create the file
 function useDebounceValue<T>(value: T, delay: number): T {
@@ -42,6 +43,14 @@ import { useSharedTeam } from "@/hooks/use-shared-team"
 
 export default function DashboardPage() {
   // Handle shared team loading
+  return (
+    <Suspense>
+      <DashboardPageContent />
+    </Suspense>
+  )
+}
+
+function DashboardPageContent() {
   useSharedTeam()
 
   const [search, setSearch] = useState("")
@@ -155,7 +164,9 @@ export default function DashboardPage() {
           isSearching={showCustomGrid}
         />
 
-        <PokemonDetailDialog />
+        <Suspense>
+          <PokemonDetailDialog />
+        </Suspense>
         <TeamDock />
 
         <DragOverlay>
@@ -176,5 +187,5 @@ export default function DashboardPage() {
 }
 
 // Import needed for getPokemonByType which was missing in imports?
-// Check imports relative to file. 
+// Check imports relative to file.
 
